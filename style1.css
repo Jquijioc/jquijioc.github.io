@@ -23,3 +23,7 @@
               width: 200px;
               height: 150px;
        }
+
+       .buttontable {
+              border-spacing: 15px;
+       }
