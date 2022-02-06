@@ -1,5 +1,7 @@
 
-       
+       .Banner {
+              width: 100%;
+              }
         h1 {
             font-family: Georgia, serif;
             color: rgb(47,79,79);
