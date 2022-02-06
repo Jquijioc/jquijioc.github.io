@@ -1,6 +1,7 @@
 
        .Banner {
-              width: 100%;
+              width: auto;
+              height: 300px;
               }
         h1 {
             font-family: Georgia, serif;
