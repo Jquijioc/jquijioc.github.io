@@ -31,14 +31,17 @@ h1 {
      
        font-family: "Arial" sans-serif;
        color: rgb(47,79,79);
-       font-size: 120%
+       font-size: 120%;
        font-weight: 1000;
      }                
           
+h2 {
+      color: rgb(47,79,79);
 
+}
 
 p {
-       
+       color: rgb(47,79,79);
        font-size: 110%;
       padding-right: 10px;
    }
