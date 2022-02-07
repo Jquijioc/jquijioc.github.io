@@ -2,6 +2,7 @@
        .Banner {
               width: 1080px;
               height:auto;
+              clear: left;
               
               }
         h1 {
