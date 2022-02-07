@@ -1,4 +1,8 @@
-
+        .welcome-side {
+                float: left;
+                margin-right: 10px;
+            
+            }
        .Banner {
               width: 1080px;
               height:auto;
