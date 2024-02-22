@@ -81,7 +81,7 @@
 
             function FindData() {
                 const dbref = ref(db);
-                get(child(dbref, N6IoPQeAN3gZwyhKOeiPsZNgoxa2)).then((snapshot) => {
+                get(child(dbref, 'profiles/', N6IoPQeAN3gZwyhKOeiPsZNgoxa2)).then((snapshot) => {
                     if (snapshot.exists()) {
                         const data = snapshot.val();
                         console.log(data);
@@ -93,10 +93,10 @@
                     console.error(error);
                 });
 
-                get(child(dbref, sOiedsNbnFNcHq18qtxscdh63Op2)).then((snapshot) => {
+                get(child(dbref, 'profiles/', sOiedsNbnFNcHq18qtxscdh63Op2)).then((snapshot) => {
                     if (snapshot.exists()) {
-                        const data = snapshot.val();
-                        console.log(data);
+                        const data1 = snapshot.val();
+                        console.log(data1);
                         // Do something with the data
                     } else {
                         console.log("No data available");
