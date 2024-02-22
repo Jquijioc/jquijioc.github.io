@@ -8,6 +8,11 @@ html{
 
 }
 
+.header {
+    overflow: hidden;
+    background-color:rgb(163, 197, 119);
+    padding: 15px; 
+}
 
 .welcome-side {
         float: left;
@@ -16,6 +21,7 @@ html{
             
 .Banner {
         width: 360px;
+         float: center;
         height:auto;
         clear: both;
         margin-bottom: 10px;
