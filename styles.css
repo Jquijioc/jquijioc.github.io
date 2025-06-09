@@ -106,7 +106,7 @@ nav .right a span {
     justify-content: right;
 }
 
-.description .headshot .img {
+.description .headshot img {
     width: 350px;
     border-radius: 50%;
 }
