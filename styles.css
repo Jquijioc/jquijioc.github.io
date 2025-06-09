@@ -68,6 +68,7 @@ nav .right a span {
     align-items: center;
     padding: 0 50px;
     margin: 50px 0;
+    margin-bottom: 100px;
     gap: 40px;
 
 }
@@ -101,6 +102,32 @@ nav .right a span {
 
 .description .headshot {
     flex: 2;
+    display: flex;
+    justify-content: right;
+}
+
+.description .headshot .img {
+    width: 350px;
+    border-radius: 50%;
+}
+
+@media (max-width: 850px) {
+    /* Section One: Blurb */
+    .description .text .h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 740px) {
+    /* Section One: Blurb */
+    .description {
+        flex-direction: column-reverse;
+    }
+
+    .description .headshot .img {
+        width: 300px;
+
+    }
 }
 
 @media (max-width: 600px) {
@@ -120,8 +147,17 @@ nav .right a span {
         padding: 0;
     }
 
-
     nav .right a span {
         display: none;
     }
+
+    /* Blurb Section 1*/
+    .description {
+        padding: 0 20px;
+    }
+
+    .description .text .h2 {
+        font-size: 30px;
+    }
+
 }
