@@ -67,7 +67,7 @@ nav .right a span {
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
-    margin: 50px 8;
+    margin: 50px 0;
     gap: 40px;
 
 }
@@ -86,7 +86,7 @@ nav .right a span {
 
 .description .text .links a {
     display: inline-block;
-    padding: 5x 10x;
+    padding: 5px 10px;
     border: 2px solid var(--link-color);
     border-radius: 5px;
     margin-right: 10px;
